@@ -20,10 +20,26 @@
     display: flex;
     justify-content: center;
 }
+.nav-bar-title:hover{
+    display: inline-block;
+    animation: shake 1.5s infinite;
+}
 
+@keyframes shake {
+    0% { transform: rotate(0deg); }
+   80% { transform: rotate(-10deg); }
+   85% { transform: rotate(10deg); }
+   95% { transform: rotate(-10deg); }
+  100% { transform: rotate(10deg); }
+}
 
 .linkedin-icon, .github-icon{
     margin-right: 20px;
     width: 25px;
+    transition:  .5s ease;
 }
 
+
+.linkedin-icon:hover, .github-icon:hover{
+    transform: scale(1.5);
+}

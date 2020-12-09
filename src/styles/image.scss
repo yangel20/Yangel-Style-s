@@ -1,0 +1,112 @@
+.image-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-top: 2%;
+}
+
+.image-section-title {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    margin-top: 2%;
+    color:  rgb(74, 118, 69);
+}
+.sunflower-image-container{
+    position: relative;
+    height: 230px;
+    width: 350px;
+}
+
+.sunflower-image {
+    height: inherit;
+    width: inherit;
+    border-radius: 8px;
+    
+}
+.sunflower-image:hover{
+    transform: scaleX(-1);
+}
+
+.sunflower-photographer {
+    position: absolute;
+    color: white;
+    bottom: 8px;
+    left: 16px;
+}
+
+.sunflower-title {
+    position: absolute;
+    color: white;
+    bottom: 22px;
+    left: 16px;
+}
+/*----------------------------*/
+.park-image-container{
+    position: relative;
+    height: 230px;
+    width: 350px;
+}
+
+.park-image {
+    height: inherit;
+    width: inherit;
+    border-radius: 8px;
+    
+}
+
+.park-image:hover {
+    filter: saturate(6);
+}
+
+.park-photographer {
+    position: absolute;
+    color: white;
+    bottom: 8px;
+    left: 16px;
+}
+
+.park-title {
+    position: absolute;
+    color: white;
+    bottom: 22px;
+    left: 16px;
+}
+/*----------------------------*/
+.brooklyn-bridge-image-container {
+    position: relative;
+    height: 230px;
+    width: 350px;
+    
+}
+.brooklyn-bridge-image-container {
+    transition:  .5s ease;
+}
+
+.brooklyn-bridge-image-container:hover{
+    
+    transform: scale(1.2);
+}
+
+.brooklyn-bridge-image {
+    height: inherit;
+    width: inherit;
+    border-radius: 8px;
+}
+
+
+.brooklyn-bridge-photographer {
+    position: absolute;
+    color: white;
+    bottom: 8px;
+    left: 16px;
+}
+
+.brooklyn-bridge-title {
+    position: absolute;
+    color: white;
+    bottom: 22px;
+    left: 16px;
+}
