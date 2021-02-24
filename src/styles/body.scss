@@ -1,20 +1,42 @@
-.description-container {
+.description-title{
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    margin-top: 5%;
+    color:  rgb(74, 118, 69);
+}
+.txt-type > .txt {
+    border-right: 0.2rem solid #777;
+}
+
+.description {
     display: flex;
     position: relative;
+    flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto;
-    top: 100px;
+    margin-top: 4%;
     font-weight: 500;
-    font-size: 17px;
+    font-size: 20px;
     width: 60%;
     color:  rgb(74, 118, 69);
 }
+
+.description > span{
+    opacity: 0;
+    transition: 0.5;
+}
+
+.description > span.fade{
+    opacity: 1;
+}
+
 
 .btn-slide-title{
     display: flex;
     justify-content: center;
     font-size: 32px;
-    margin-top: 10%;
+    margin-top: 5%;
     color:  rgb(74, 118, 69);
     animation-name: slide;
 }
