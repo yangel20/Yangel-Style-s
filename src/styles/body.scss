@@ -1,3 +1,9 @@
+$desktop:1200px;
+$labtop:1024px;
+$tablet:768px;
+$phone:480px;
+
+
 .description-title{
     display: flex;
     justify-content: center;
@@ -71,6 +77,9 @@
     font-size: 110%;
     background-color: #314D74;
     color: black;
+       @media screen and (max-width:716px) {
+        font-size: 100%;
+    }
 }
 
 .btn-1::before {
@@ -111,6 +120,9 @@
     font-size: 110%;
     background-color: #CC8237;
     color: black;
+    @media screen and (max-width:716px) {
+        font-size: 95%;
+    }
 }
 
 .btn-2::before {
@@ -149,6 +161,9 @@
     border-radius: 7px;
     font-size: 110%;
     background: #B6C9B5;
+    @media screen and (max-width:716px) {
+        font-size: 100%;
+    }
 }
 
 .btn-3::before {
@@ -187,6 +202,9 @@
     border-radius: 7px;
     font-size: 110%;
     background: #C82423;
+    @media screen and (max-width:716px) {
+        font-size: 100%;
+    }
 }
 
 .btn-4::before {
@@ -217,3 +235,4 @@
 .btn-4:focus{
     color: white
 }
+
